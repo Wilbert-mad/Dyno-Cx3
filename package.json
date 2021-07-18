@@ -1,0 +1,14 @@
+{
+  "name": "dyno-custom-commands",
+  "version": "1.0.0",
+  "description": "Dyno CC mini compiler",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "coffee -o dist/ -bc src/",
+    "test": "node __test__/"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  }
+}
